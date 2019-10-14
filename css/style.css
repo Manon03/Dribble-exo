@@ -85,3 +85,30 @@ body{
 	color: grey;
 	opacity: 1;
 }
+.hover span{
+	margin: 5px;
+}
+/*-------------------Responsive------------------------*/
+@media all and (max-width: 800px){
+	.container{
+		margin: auto;
+		margin-top: 50px;
+		width: 100%;
+	}
+	.navbar2 a{
+		font-weight: bold;
+		font-size: 20px;
+		padding: 5px;
+		text-decoration: none;
+	}
+	.info{
+		font-size: 15px;
+	}
+	.avatar2{
+		border-radius: 20px;
+		width: 40px;
+		height: 40px;
+		border: 1px solid lightgrey;
+		margin: 20px;
+	}
+}
