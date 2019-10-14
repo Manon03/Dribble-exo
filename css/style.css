@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+	background-color: #efe8e8;
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid lightgrey;
+	box-shadow: 0px 1px 16px 2px rgba(0,0,0,0.33);
+}
+.navbar img{
+	width: 200px;
+	padding: 25px 0;
+}
+.container{
+	margin: auto;
+	margin-top: 50px;
+	width: 800px;
+}
+.navbar2 a{
+	font-weight: bold;
+	font-size: 25px;
+	padding: 5px;
+	text-decoration: none;
+}
+.navbar2{
+	margin-bottom: 10px;
+}
+.pointer{
+	color: black;
+	border-bottom: 5px solid #4fa79a;
+}
+.gray{
+	text-decoration: none;
+	color: gray;
+}
+.gray:hover{
+	color: black;
+	border-bottom: 5px solid #4fa79a;
+}
+.avatar2{
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid lightgrey;
+	margin: 20px;
+}
+.bloc{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	margin: 2px 0;
+	height: 70px;
+}
+.blocinfo{
+	display: flex;
+}
+.gris{
+	color: grey;
+	font-weight: bold;
+	font-size: 15px;
+}
+.info{
+	font-size: 20px;
+}
+.info a{
+	text-decoration: none;
+	color: #668cd2;
+}
+.hover{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	color: grey;
+	opacity: 0;
+}
+.hover:hover{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	color: grey;
+	opacity: 1;
+}
